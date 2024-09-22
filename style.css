@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.menu{
+display: flex;
+gap: 40px;
+}
+
+.mebu_link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    background: ;
+    padding: 73px 39px;
+    border-radius: 5px;
+}
+
+.banner{
+    height: 90vh;
+    background-image: url(img/image.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    jastify-content: 
+}
