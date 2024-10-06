@@ -2,19 +2,28 @@ body{
     margin: 0;
     font-family: 'Inter';
 }
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .menu{
 display: flex;
 gap: 40px;
+border-top: 1px solid #000;
+align-items: center;
+width: 100%;
+justify-content: space-around;
+
 }
 
 .mebu_link{
     text-decoration: none;
     color: black;
     font-size: 24px;
-    background: ;
-    padding: 73px 39px;
-    border-radius: 5px;
+    
 }
 
 .banner{
@@ -24,11 +33,23 @@ gap: 40px;
     background-position: center;
     display: flex;
     align-items: center;
-    jastify-content: 
+    justify-content: center;
+}
+
+.title{
+    font-size: 100px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: rgb(255, 255, 255);
+
+}
+
+.cart{
+    
 }
 
 .catalog{
-    padding: 100px; 80px;
+    padding: 100px; 
     text-align: center;
 }
 

@@ -1,7 +1,33 @@
 [
     {
 
-        "title": "c",
-
+        "title": "Oversized T-shirt with a print",
+        "price": 25,
+        "img": "item1.avif"
+    },
+    {
+        "title": "T-shirt with a print",
+        "price": 30,
+        "img": "ch.avif"
+    },
+    {
+        "title": "T-shirt",
+        "price": 27,
+        "img": "item2.avif"
+    },
+    {
+        "title": "Beige cargo pants",
+        "price": 23,
+        "img": "stem.3.avif"
+    },
+    {
+        "title": "menLoose's",
+        "price": 28,
+        "img": "item.1.avif"
+    },
+    {
+        "title": "Black wide pants with stripes",
+        "price": 32,
+        "img": "stem.4.jpeg"
     }
 ]
