@@ -21,7 +21,7 @@
         "img": "stem.3.avif"
     },
     {
-        "title": "menLoose's",
+        "title": "Loose men's pants",
         "price": 28,
         "img": "item.1.avif"
     },
@@ -29,5 +29,16 @@
         "title": "Black wide pants with stripes",
         "price": 32,
         "img": "stem.4.jpeg"
+    },
+    {
+        "title": "Men's sweatshirt",
+        "price": 50,
+        "img": "item33.avif"
+    },
+    {
+        "title": "Men's sweatshirt",
+        "price": 45,
+        "img": "item33.avif"
     }
-]
+
+    ]

@@ -38,9 +38,9 @@ getProducts().then(function(products){
 )
 
 function searchProducts(event){
-    event.preventDefaul()
+    event.preventDefault()
 
-    let field = document.querySelector('.search_fseld')
+    let field = document.querySelector('.search_field')
     let query = field.value.toLowerCase()
     let productsList = document.querySelector('.items')
     productsList.innerHTML=''
@@ -62,6 +62,26 @@ function searchProducts(event){
 }
 
 let searchForm = document.querySelector('.search')
-searchForm.addEventListener('submit,searchProducts')
+searchForm.addEventListener('submit',searchProducts)
 let searchBtn = document.querySelector('.search_btn')
 searchBtn.addEventListener('click', searchProducts)
+
+
+let revCnt = document.querySelector('.rev_cnt')
+let revInput = document.querySelector('.rev_input')
+let revBtn = document.querySelector('.rev_btn')
+
+revBtn.addEventListener('click', function(){
+    let revInput = document.querySelector('.rev_input')
+
+    let text = revInput.value
+    console.log(text)
+    if (text != '' ){
+        revCnt.innerHTML += `
+        <div class="review">
+        <img src="img/user.png" alt="">
+        <p class="review_text">${text}</p>
+    </div>
+        `
+    }
+})
